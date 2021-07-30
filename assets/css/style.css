@@ -24,7 +24,7 @@
     --h2-font-size: 1.25rem;
     --normal-font-size: 0.938rem;
 }
-@media screen and(min-width: 768px)
+@media screen and(min-width: 720px)
 {
     :root{
         --big-font-size : 2.5rem;
@@ -518,7 +518,7 @@ img
 }
 /*===== Media Queries =====*/
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 720px)
 {
     body{
         margin: 0;
