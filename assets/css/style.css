@@ -560,6 +560,10 @@ img
     .home{
         height: 100vh;
     }
+    .home__title
+    {
+    font-size: var(-big-font-size);
+    }
     .home__data{
         align-self: flex-end;
     }
