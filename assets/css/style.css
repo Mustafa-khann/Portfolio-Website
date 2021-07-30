@@ -147,7 +147,7 @@ img
     align-items: center;
     font-weight: var(--font-semi);
 }
-@media screen and (max-width: 768px)
+@media screen and (max-width: 720px)
 {
     .nav__menu
     {
@@ -226,7 +226,7 @@ img
 }
 .home__title
 {
-    font-size: var(--big-font-size);
+    font-size: var(--small-font-size);
     margin-bottom: var(--mb-5);
     color:var(--second-color);
 }
