@@ -226,7 +226,7 @@ img
 }
 .home__title
 {
-    font-size: var(--big-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: var(--mb-5);
     color:var(--second-color);
 }
@@ -256,7 +256,7 @@ img
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 250px;
 }
 /*===== Buttons =====*/
 .button
