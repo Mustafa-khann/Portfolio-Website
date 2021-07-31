@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="assets/css/style.css">
-
-     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+          <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
       <title>Mustafa Khan | Student</title>
 
     <header class = "l-header">
@@ -16,11 +15,11 @@
 
             <div class="nav__menu" id = "nav-menu">
                  <ul class="nav__list">
-                     <li class="nav__item"><a href="#home" class="nav__link">Home</li>
-                     <li class="nav__item"><a href="#about" class="nav__link">About</li>
-                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</li>
-                     <li class="nav__item"><a href="#work" class="nav__link">Portfolio</li>
-                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</li>
+                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                     <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id ="nav-toggle">  
@@ -37,7 +36,7 @@
             <h1 class="home__title">
                     Hi, <br> I'm <span class="home__title-color">Mustafa</span><br>InfoSec Nerd</h1>
                      
-                    <a href = "mailto: mkafridi073@gmail.com" class = "button">Contact</a>
+                    <a href = "#contact" class = "button">Contact</a>
             </div>
             
 
@@ -129,7 +128,7 @@
 
             <div class = "skills__data">
             <div class = "skills__names">
-               <img class="cpp__icon" src="assets/images/icons/c-plus-plus-logo-24.png">  
+               <img class="cpp__icon" src="assets/images/icons/c-plus-plus-logo-24.png">
                 <span class = "skills__name">C++</span>
             
             </div>
@@ -200,15 +199,6 @@
                     <div class="work__img">
                         <img src="assets/images/work2.jpg" alt="">
                     </div>
-                    <div class="work__img">
-                        <img src="assets/images/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work5.jpg" alt="">
-                    </div> 
                 </div>
         </section>
 <!--==== Contact ====-->
@@ -216,14 +206,19 @@
     <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
             <div class="contact__container bd-grid">
-            <form action="" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input">
-            <input type="mail" placeholder="Email" class="contact__input">
-            <textarea name="" id="" cols="0" rows="10" class="contact__input"> </textarea>
-            
-            <input type="button" value="Send" class="contact__button button">
+            <form action="assets/Php/message.php" method = "POST" class="contact__form" id="contact__form">
+                <label>
+                    <input type="text" name = "name" placeholder="Name" class="contact__input">
+                </label>
+                <label>
+                    <input type="email" name = "email" placeholder="Email" class="contact__input">
+                </label>
+                <label>
+                    <textarea type="message" name = "message" placeholder="Type your message" cols="0" rows="10" class="contact__input"> </textarea>
+                </label>
+                <button type="submit" class = "button">Send Message</button>
             </form>
-            </div>
+        </div>
     </section>
 <!--==== Footer ====-->
 <footer class="footer">

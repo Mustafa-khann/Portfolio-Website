@@ -22,7 +22,7 @@
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 3rem;
     --h2-font-size: 1.25rem;
-    --normal-font-size: 0.938rem;
+    --normal-font-size: 0.738rem;
 }
 @media screen and(min-width: 720px)
 {
@@ -265,7 +265,7 @@ img
     background-color: var(--first-color);
     text-align: center;
     color: #ffff;
-    padding: .75rem 2.5rem;
+    padding: .75rem 1.5rem;
     font-weight:  var(--font-semi);
     border-radius: .5rem;
 }
@@ -484,12 +484,16 @@ img
 }
 .contact__button
 {
-    display: block;
     border: none;
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
-    margin-left: auto;
+}
+.sending__text
+{
+    display: none;
+    color: #0E2431;
+    margin-left: 30px;
 }
 /*===== Footer =====*/
 .footer
@@ -562,7 +566,7 @@ img
     }
     .home__title
     {
-    font-size: var(-big-font-size);
+    font-size: var(--big-font-size);
     }
     .home__data{
         align-self: flex-end;
