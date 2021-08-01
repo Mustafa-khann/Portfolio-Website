@@ -14,7 +14,7 @@
 :root
 {
     --first-color: #4070F4;
-    --second-color: #0E2431;
+    --second-color: #182C2A;
 }
 /*===== Typography =====*/
 :root
@@ -60,7 +60,7 @@
 html
 {
     scroll-behavior: smooth;
-    
+
 }
 body
 {
