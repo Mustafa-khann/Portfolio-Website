@@ -450,20 +450,16 @@ img
 {
     row-gap: 2rem;
 }
-.work__img
-{
-    box-shadow: 0 4px 25px rgba(14,36,49,15);
+.work__img {
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 15);
     border-radius: .5rem;
     overflow: hidden;
-}
-.work__img
-{
-    transition: 2s;
-    cursor: pointer;
 }
 .work__img img
 {
     transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
 }
 .work__img img:hover
 {
