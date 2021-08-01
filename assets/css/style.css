@@ -227,6 +227,7 @@ img
 .home__title
 {
     font-size: var(--h2-font-size);
+    margin-left: 0px;
     margin-bottom: var(--mb-5);
     color:var(--second-color);
 }
