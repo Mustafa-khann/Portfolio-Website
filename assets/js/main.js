@@ -23,8 +23,8 @@ function linkAction()
     this.classList.add('active')
 
     // Remove menu on a mobile phone
-    const navMenu = document.getElementById('nav-menu')
-    navMenu.classList.remove('show')
+    // const navMenu = document.getElementById('nav-menu')
+    // navMenu.classList.remove('show')
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
