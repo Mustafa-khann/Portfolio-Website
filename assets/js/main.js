@@ -52,7 +52,10 @@ sr.reveal('.skills__img',{delay:450})
 /*===== Scroll Portfolio =====*/
 sr.reveal('.work__img',{interval:200})
 /*===== Scroll Contact =====*/
-sr.reveal('.contact__form',{interval:200})
+sr.reveal('.contact__name',{delay:200})
+sr.reveal('.contact__email',{delay:400})
+sr.reveal('.contact__subject',{delay:600})
+sr.reveal('.contact__message',{delay:800})
 
 /*===== Form resubmission =====*/
 if ( window.history.replaceState ) {
