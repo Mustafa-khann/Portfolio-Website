@@ -79,22 +79,22 @@ $(document).ready(function ()
         var disabledbutton = document.getElementById("submitbutton")
 
 
-        if(name.lenght<3 && name.includes(1,2,3,4,5,6,7,8,9,0))
+        if(name.length===0 && name.lenght<3 && name.includes(1,2,3,4,5,6,7,8,9,0))
         {
             statusTxt.append('Name is Invalid\n')
             disabledbutton.disabled=true;
         }
-        if(email.length<5 )
+        if(email.length<5 &&email.length===0)
         {
             statusTxt.append('Email is Invalid\n')
             disabledbutton.disabled=true;
         }
-        if(subject.length<2 )
+        if(subject.length<2 && subject.length===0)
         {
             statusTxt.append('Subject is Invalid\n')
             disabledbutton.disabled=true;
         }
-        if(message.length<20)
+        if(message.length<20 && message.length===0)
         {
             statusTxt.append('Message is Invalid')
             disabledbutton.disabled=true;

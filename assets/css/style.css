@@ -532,6 +532,10 @@ img
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
+.sending__text
+{
+    display: block;
+}
 .submit
 {
     display: inline-block;
