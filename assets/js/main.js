@@ -66,7 +66,6 @@ $(document).ready(function ()
 {
     $('.submit').click(function (event)
     {
-        console.log('button clicked')
 
         var name = $('.contact__name').val()
         var nametext = document.getElementById(nametext);
