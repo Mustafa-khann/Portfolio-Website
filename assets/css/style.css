@@ -457,7 +457,6 @@ img
 }
 .work__img img
 {
-    transform: scale(1.1);
     transition: 1s;
     cursor: pointer;
 }
