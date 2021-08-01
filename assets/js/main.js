@@ -67,6 +67,7 @@ $(document).ready(function ()
     $('.submit').click(function (event)
     {
 
+
         var name = $('.contact__name').val()
         var nametext = document.getElementById(nametext);
         var email = $('.contact__email').val()
@@ -75,22 +76,28 @@ $(document).ready(function ()
         var statusTxt =$('.sending__text')
         statusTxt.empty()
 
+        var disabledbutton = document.getElementById("submitbutton")
+
 
         if(name.lenght<3 && name.includes(1,2,3,4,5,6,7,8,9,0))
         {
             statusTxt.append('Name is Invalid\n')
+            disabledbutton.disabled=true;
         }
         if(email.length<5 )
         {
             statusTxt.append('Email is Invalid\n')
+            disabledbutton.disabled=true;
         }
         if(subject.length<2 )
         {
             statusTxt.append('Subject is Invalid\n')
+            disabledbutton.disabled=true;
         }
         if(message.length<20)
         {
             statusTxt.append('Message is Invalid')
+            disabledbutton.disabled=true;
         }
     })
 })

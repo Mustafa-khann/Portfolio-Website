@@ -532,12 +532,6 @@ img
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
-.sending__text
-{
-    display: block;
-    color: #0E2431;
-    margin-left: 10px;
-}
 .submit
 {
     display: inline-block;
