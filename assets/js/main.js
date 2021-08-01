@@ -54,13 +54,16 @@ sr.reveal('.work__img',{interval:200})
 /*===== Scroll Contact =====*/
 sr.reveal('.contact__input',{interval:200})
 
+/*===== Form resubmission =====*/
+if ( window.history.replaceState ) {
+    window.history.replaceState( null, null, window.location.href );
+}
 /*===== Contact form =====*/
 $(document).ready(function ()
 {
     $('.submit').click(function (event)
     {
         console.log('button clicked')
-        event.preventDefault()
 
         var name = $('.contact__name').val()
         var nametext = document.getElementById(nametext);
@@ -75,7 +78,7 @@ $(document).ready(function ()
         {
             statusTxt.append('Name is Invalid\n')
         }
-        if(email.length<5)
+        if(email.length<5 )
         {
             statusTxt.append('Email is Invalid\n')
         }

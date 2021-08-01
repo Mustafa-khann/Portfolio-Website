@@ -557,10 +557,11 @@ img
     font-weight: var(--font-semi);
     padding: 2rem 0;
 }
+
 .footer__title
 {
     font-size: 2rem;
-     color: var(--second-color);
+     background-color: var(#F6C0C0);
     margin-bottom: var(--mb-4);
 }
 .footer__social
