@@ -79,24 +79,24 @@ $(document).ready(function ()
         var disabledbutton = document.getElementById("submitbutton")
 
 
-        if(name.length===0 && name.lenght<3 && name.includes(1,2,3,4,5,6,7,8,9,0))
+        if(name.length===0 && name.includes(1,2,3,4,5,6,7,8,9,0))
         {
             statusTxt.append('Name is Invalid\n')
             disabledbutton.disabled=true;
         }
-        if(email.length<5 &&email.length===0)
+        if(email.length===0)
         {
-            statusTxt.append('Email is Invalid\n')
+            statusTxt.append('Kindly fill the Email field\n')
             disabledbutton.disabled=true;
         }
-        if(subject.length<2 && subject.length===0)
+        if(subject.length===0)
         {
-            statusTxt.append('Subject is Invalid\n')
+            statusTxt.append('Kindly fill the Subject field\n')
             disabledbutton.disabled=true;
         }
-        if(message.length<20 && message.length===0)
+        if(message.length===0)
         {
-            statusTxt.append('Message is Invalid')
+            statusTxt.append("Kindly just don't stay silent, write to me!")
             disabledbutton.disabled=true;
         }
     })
