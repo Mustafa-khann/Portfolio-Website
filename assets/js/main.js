@@ -52,7 +52,7 @@ sr.reveal('.skills__img',{delay:450})
 /*===== Scroll Portfolio =====*/
 sr.reveal('.work__img',{interval:200})
 /*===== Scroll Contact =====*/
-sr.reveal('.contact__input',{interval:200})
+sr.reveal('.contact__form',{interval:200})
 
 /*===== Form resubmission =====*/
 if ( window.history.replaceState ) {
