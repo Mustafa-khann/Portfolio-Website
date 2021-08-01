@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
           <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
       <title>Mustafa Khan | Student</title>
@@ -206,20 +207,22 @@
     <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
             <div class="contact__container bd-grid">
-            <form action="" class="contact__form">
+            <form action="" class="contact__form" method="post">
                 <label>
-                    <input type="text" name = "name" placeholder="Name" class="contact__input">
+                    <input type="text" placeholder="Name" class="contact__name" name="name">
                 </label>
                 <label>
-                    <input type="email" name = "email" placeholder="Email" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__email" name="email">
                 </label>
                 <label>
-                    <textarea type="message" name = "message" placeholder="Type your message" cols="0" rows="10" class="contact__input"> </textarea>
+                    <input type = "text" placeholder="Subject" class="contact__subject" name="subject">
                 </label>
-                <div class = "status">
-
+                <label>
+                    <textarea type="message" name = "message" placeholder="Type your message" cols="0" rows="10" class="contact__message"> </textarea>
+                </label>
+                <button type="submit" class = "submit">Send Message</button>
+                <div class="sending__text" id="sendingtext">
                 </div>
-                <button type="submit" class = "button">Send Message</button>
             </form>
         </div>
     </section>

@@ -24,7 +24,7 @@ function linkAction()
 
     // Remove menu on a mobile phone
     // const navMenu = document.getElementById('nav-menu')
-    // navMenu.classList.remove('show')
+    // navMenu.classList. remove('show')
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
@@ -53,3 +53,39 @@ sr.reveal('.skills__img',{delay:450})
 sr.reveal('.work__img',{interval:200})
 /*===== Scroll Contact =====*/
 sr.reveal('.contact__input',{interval:200})
+
+/*===== Contact form =====*/
+$(document).ready(function ()
+{
+    $('.submit').click(function (event)
+    {
+        console.log('button clicked')
+        event.preventDefault()
+
+        var name = $('.contact__name').val()
+        var nametext = document.getElementById(nametext);
+        var email = $('.contact__email').val()
+        var subject = $('.contact__subject').val()
+        var message = $('.contact__message').val()
+        var statusTxt =$('.sending__text')
+        statusTxt.empty()
+
+
+        if(name.lenght<3 && name.includes(1,2,3,4,5,6,7,8,9,0))
+        {
+            statusTxt.append('Name is Invalid\n')
+        }
+        if(email.length<5)
+        {
+            statusTxt.append('Email is Invalid\n')
+        }
+        if(subject.length<2 )
+        {
+            statusTxt.append('Subject is Invalid\n')
+        }
+        if(message.length<20)
+        {
+            statusTxt.append('Message is Invalid')
+        }
+    })
+})
