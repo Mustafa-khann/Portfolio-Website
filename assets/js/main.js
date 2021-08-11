@@ -103,7 +103,7 @@ function resizeIframe() {
     var height = document.documentElement.clientHeight;
     height -= pageY(document.getElementById('ifm'))+ buffer ;
     height = (height < 0) ? 0 : height;
-    document.getElementById('ifm').style.height = height + 'px';
+    document.getElementById('iframe').style.height = height + 'px';
 }
 
 // .onload doesn't work with IE8 and older.
