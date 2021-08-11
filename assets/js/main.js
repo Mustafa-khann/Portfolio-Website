@@ -21,10 +21,6 @@ function linkAction()
     //active Link
     navLink.forEach(n => n.classList.remove('active'))
     this.classList.add('active')
-
-    // Remove menu on a mobile phone
-    // const navMenu = document.getElementById('nav-menu')
-    // navMenu.classList. remove('show')
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
@@ -57,7 +53,7 @@ sr.reveal('.contact__email',{delay:200})
 sr.reveal('.contact__subject',{delay:300})
 sr.reveal('.contact__message',{delay:400})
 
-/*===== Form resubmission =====*/
+/*===== Form resubmission appearance disable after every refresh of the page =====*/
 if ( window.history.replaceState ) {
     window.history.replaceState( null, null, window.location.href );
 }
