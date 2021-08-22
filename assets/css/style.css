@@ -560,6 +560,13 @@ img
 {
     margin-bottom: var(--mb-4);
 }
+.footer__social-icon
+{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 2.5rem;
+    color: #75E6DA;
+}
 .footer__icon
 {
     font-size: 1.5rem;
