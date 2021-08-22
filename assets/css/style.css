@@ -560,12 +560,19 @@ img
 {
     margin-bottom: var(--mb-4);
 }
-.footer__social-icon
+.twitter-icon
 {
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 2.5rem;
-    color: #ffffff;
+    color: #5DA9DD;
+}
+.instagram-icon
+{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 2.5rem;
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .footer__icon
 {
