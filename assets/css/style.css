@@ -367,6 +367,12 @@ img
     margin-right: var(--mb-2);
     color: #5ab9ea;
 }
+.bxs-lock
+{
+     font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: #5ab9ea;
+}
 .python__icon, .cpp__icon, .java__icon, .arduino__icon
 {
     font-size: 2rem;
