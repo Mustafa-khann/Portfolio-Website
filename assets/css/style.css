@@ -14,7 +14,7 @@
 :root
 {
     --first-color: #4070F4;
-    --second-color: #182C2A;
+    --second-color: #1C1C1C;
 }
 /*===== Typography =====*/
 :root
@@ -160,7 +160,9 @@ img
         background-color: var(--second-color);
         transition: .5s;
     }
+
 }
+
 .nav__item
 {
     margin-bottom: var(--mb-4);
@@ -311,13 +313,14 @@ img
 {
     margin-bottom: var(--mb-2);
 }
-.professional__skills
+.professional__skills__title
 {
     margin-top: 3.5rem;
-}
-.professional__skills__text
-{
     margin-bottom: var(--mb-2);
+}
+.professional__skills__subtitle
+{
+    margin-bottom: var(--mb-4);
 }
 .skills__text
 {
@@ -345,6 +348,24 @@ img
      font-size: 2rem;
     margin-right: var(--mb-2);
     color: var(--first-color);
+}
+.bx-credit-card-front
+{
+     font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: #2e548b;
+}
+.bx-code-alt
+{
+     font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: #24305e;
+}
+.bx-selection
+{
+     font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: #5ab9ea;
 }
 .python__icon, .cpp__icon, .java__icon, .arduino__icon
 {
@@ -447,6 +468,15 @@ img
     height: .24rem;
     z-index: var(--z-back);
 }
+.skills__bar_webpentesting
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #12c427;
+    height: .24rem;
+    z-index: var(--z-back);
+}
 .skills__html
 {
    width:70%;
@@ -490,6 +520,10 @@ img
 .skills__img
 {
     border-radius: .5rem;
+}
+.skills__webpentesting
+{
+    width: 30%;
 }
 
 /*===== Work =====*/
@@ -735,4 +769,3 @@ img
 
     }
 }
-
