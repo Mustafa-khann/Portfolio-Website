@@ -43,6 +43,8 @@ sr.reveal('.text',{delay:400})
 /*===== Scroll Skills =====*/
 sr.reveal('.skills__subtitle',{})
 sr.reveal('.skills__text',{delay:200})
+sr.reveal('.professional__skills__title',{delay:200})
+sr.reveal('.professional__skills__subtitle',{delay:200})
 sr.reveal('.skills__data',{delay:200})
 sr.reveal('.skills__img',{delay:450})
 /*===== Scroll Portfolio =====*/
