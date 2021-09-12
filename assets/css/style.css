@@ -757,14 +757,13 @@ img
    }
    
 }
-@media screen and (min-width: 1024px)
-{
-    .bd-grid{
+@media screen and (min-width: 1024px) {
+    .bd-grid {
         margin-left: auto;
         margin-right: auto;
     }
-    .home__img
-    {
+
+    .home__img {
         right: 10%;
 
     }
