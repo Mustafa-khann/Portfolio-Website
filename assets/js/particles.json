@@ -1,0 +1,16 @@
+{
+  "particles":
+  {
+    "number":
+    {
+      "value": 500
+    },
+      "color":{
+        "value": "black"
+      },
+    "shape":
+    {
+      "type": "circle",
+    }
+  }
+}
