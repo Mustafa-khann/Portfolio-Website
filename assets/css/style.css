@@ -6,7 +6,7 @@
 :root
 {
     --header-height: 3rem;
-    --font-semi: 600;
+    --font-semi: 700;
 
 }
 
@@ -145,6 +145,7 @@ img
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
+    font-size: 14px;
 }
 @media screen and (max-width: 720px)
 {
@@ -280,9 +281,10 @@ img
     row-gap: 2rem;
     text-align: center;
 }
-.about__subtitle
-{
+.about__subtitle {
     margin-bottom: var(--mb-2);
+    font-size: 28px;
+    color: #1E1F21;
 }
 .cybersecurity__text
 {
@@ -309,9 +311,21 @@ img
 {
     margin-bottom: var(--mb-2);
 }
+.professional__skills
+{
+    margin-top: 3.5rem;
+}
+.professional__skills__text
+{
+    margin-bottom: var(--mb-2);
+}
 .skills__text
 {
     margin-bottom: var(--mb-4);
+}
+.professional__skills__text
+{
+    margin-top: var(--mb-2);
 }
 
 .skills__data
@@ -324,7 +338,7 @@ img
     padding: .5rem 1rem;
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
-    box-shadow: 0 4px 25px rgba(14,36,49,.15); 
+    box-shadow: 0 4px 25px rgba(14,37,49,.15);
 }
 .skills__icon
 {
@@ -406,6 +420,33 @@ img
     height: .24rem;
     z-index: var(--z-back);
 }
+.skills__bar_frontend
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #2e548b;
+    height: .24rem;
+    z-index: var(--z-back);
+}
+.skills__bar_backend
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #285AEB;
+    height: .24rem;
+    z-index: var(--z-back);
+}
+.skills__bar_electronics
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #12c427;
+    height: .24rem;
+    z-index: var(--z-back);
+}
 .skills__html
 {
    width:70%;
@@ -424,7 +465,7 @@ img
 }
 .skills__java
 {
-   width:90%;
+   width:60%;
 }
 .skills__python
 {
@@ -433,6 +474,18 @@ img
 .skills__arduino
 {
    width:30%;
+}
+.skills__frontend
+{
+   width:40%;
+}
+.skills__backend
+{
+   width:20%;
+}
+.skills__electronics
+{
+   width:40%;
 }
 .skills__img
 {
@@ -648,7 +701,6 @@ img
     .about__container,.skills__container{
         grid-template-columns: repeat(2,1fr);  
         align-items: center;
-        text-align: initial;
     }
     .about__img img{
         width: 300px;
