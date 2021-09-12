@@ -612,6 +612,7 @@ img
 .footer__social
 {
     margin-bottom: var(--mb-4);
+    color: white;
 }
 .twitter-icon
 {
