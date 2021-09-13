@@ -6,11 +6,15 @@
       "value": 500
     },
       "color":{
-        "value": "black"
+        "value": "#000"
       },
     "shape":
     {
       "type": "circle",
+    },
+    "size":
+    {
+      "value": 1
     }
   }
 }
