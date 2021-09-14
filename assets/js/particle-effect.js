@@ -7,20 +7,20 @@ particlesJS('particles-js',
         "value": 300,
         "density": {
           "enable": true,
-          "value_area": 1000
+          "value_area": 1500
         }
       },
       "color": {
-        "value": "#1C1C1C"
+        // "value": "#1C1C1C"
       },
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
+          "width": 0.5,
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 10
         },
         "image": {
           "src": "img/github.svg",
@@ -33,7 +33,7 @@ particlesJS('particles-js',
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 1,
+          "speed": 0.2,
           "opacity_min": 0.1,
           "sync": false
         }
@@ -52,8 +52,8 @@ particlesJS('particles-js',
         "enable": true,
         "distance": 100,
         "color": "#4070F4",
-        "opacity": 0.4,
-        "width": 1
+        "opacity": 0.9,
+        "width": 1,
       },
       "move": {
         "enable": true,
@@ -75,7 +75,7 @@ particlesJS('particles-js',
         "onhover": {
           "enable": true,
           "mode": "grab",
-          "distance":50
+          "distance":10
         },
         "onclick": {
           "enable": true,
@@ -85,7 +85,7 @@ particlesJS('particles-js',
       },
       "modes": {
         "grab": {
-          "distance": 100,
+          "distance": 150,
           "line_linked": {
             "opacity": 1
           }
@@ -101,7 +101,7 @@ particlesJS('particles-js',
           "distance": 20
         },
         "push": {
-          "particles_nb": 4
+          "particles_nb": 5
         },
         "remove": {
           "particles_nb": 2
@@ -113,7 +113,7 @@ particlesJS('particles-js',
       "hide_card": false,
       "background_color": "#b61924",
       "background_image": "",
-      "background_position": "50% 50%",
+      "background_position": "50% 5%",
       "background_repeat": "no-repeat",
       "background_size": "cover"
     }
@@ -128,7 +128,7 @@ onresize();
 addEventListener('resize', onresize);
 
 function onresize() {
-  grad= ctx.createLinearGradient(50,50,60,ctx.canvas.width,0);
+  grad= ctx.createLinearGradient(50,50,ctx.canvas.width,0);
   grad.addColorStop(0,'#4070F4');
   grad.addColorStop(1,'#60C8A2');
 }

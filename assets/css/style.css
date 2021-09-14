@@ -219,7 +219,6 @@ img
 .home
 {
     height: calc(100vh - 3rem);
-
 }
 .home-data 
 {
@@ -231,10 +230,10 @@ img
     margin-left: 0px;
     margin-bottom: var(--mb-5);
     color:var(--second-color);
+    z-index: 1;
 }
 .home__title-color
 {
-
     color:var(--first-color);
 }
 .home-social 
@@ -248,6 +247,7 @@ img
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
     color: var(--second-color);
+    z-index: 1;
 }
 .home__social-icon:hover
 {
@@ -269,12 +269,16 @@ img
     color: #ffff;
     padding: .75rem 1.5rem;
     font-weight:  var(--font-semi);
-    border-radius: .5rem;
+    border-radius: 50px;
 }
+#contact__me__button
+{
+    z-index: initial;
+}
+
 .button:hover
 {
-    box-shadow: 0 10px 36px rgba(0, 0, 0, .15)
-
+    box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 }
 /*===== About =====*/
 
@@ -771,7 +775,7 @@ img
 
     .home__img {
         right: 10%;
-
+        z-index: 2;
     }
 }
 
@@ -782,5 +786,5 @@ img
     top: 0;
     width: 100%;
     height: 100%;
-    z-index:   0;
+    z-index: 0;
 }
