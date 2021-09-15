@@ -662,14 +662,15 @@ img
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 2.5rem;
-    color: white;
+    color: #5DA9DD;
 }
 .instagram-icon
 {
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 2.5rem;
-    color: white;
+    color: linear-gradient(45deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
+
 }
 .footer__icon
 {
