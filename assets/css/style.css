@@ -230,7 +230,6 @@ img
     margin-left: 0px;
     margin-bottom: var(--mb-5);
     color:var(--second-color);
-    z-index: 1;
 }
 .home__title-color
 {
@@ -269,11 +268,11 @@ img
     color: #ffff;
     padding: .75rem 1.5rem;
     font-weight:  var(--font-semi);
-    border-radius: 50px;
+    border-radius: 20px 40px;
 }
 #contact__me__button
 {
-    z-index: initial;
+    z-index: 1;
 }
 
 .button:hover
