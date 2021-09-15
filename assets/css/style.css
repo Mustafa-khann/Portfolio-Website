@@ -268,11 +268,12 @@ img
     color: #ffff;
     padding: .75rem 1.5rem;
     font-weight:  var(--font-semi);
-    border-radius: 20px 40px;
+
 }
 #contact__me__button
 {
     z-index: 1;
+    border-radius: 20px 40px;
 }
 
 .button:hover
