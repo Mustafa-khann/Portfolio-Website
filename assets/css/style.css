@@ -163,6 +163,10 @@ img
         transition: .5s;
         border-radius: 3rem 0 0 3rem;
     }
+    header
+    {
+        width: 300px;
+    }
 }
 
 .nav__item
