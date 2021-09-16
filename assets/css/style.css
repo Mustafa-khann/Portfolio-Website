@@ -313,7 +313,7 @@ img
     row-gap: 2rem;
     text-align: center;
 }
-.skills__subtitle
+.skills__title
 {
     margin-bottom: var(--mb-2);
 }
@@ -326,7 +326,7 @@ img
 {
     margin-bottom: var(--mb-4);
 }
-.skills__text
+.skills__subtitle
 {
     margin-bottom: var(--mb-4);
 }

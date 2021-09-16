@@ -28,8 +28,9 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 const sr = ScrollReveal({
         origin: 'right',
         distance: '80px',
-        duration: 2000,
+        duration: 2500,
         reset: true
+
     })
 /*===== Scroll Home =====*/
 sr.reveal('.home__title',{origin: 'left'})
@@ -39,14 +40,15 @@ sr.reveal('.home__social-icon',{interval: 200,origin : 'left'})
 /*===== Scroll About =====*/
 sr.reveal('.about__img',{origin:'left'})
 sr.reveal('.about__subtitle',{delay:200})
-sr.reveal('.text',{delay:400})
+sr.reveal('.text',{delay:200})
 /*===== Scroll Skills =====*/
 sr.reveal('.skills__subtitle',{})
 sr.reveal('.skills__text',{delay:200})
 sr.reveal('.professional__skills__title',{delay:200})
 sr.reveal('.professional__skills__subtitle',{delay:200})
-sr.reveal('.skills__data',{delay:200})
-sr.reveal('.skills__img',{delay:450})
+sr.reveal('.professional__skills',{delay:200})
+sr.reveal('.skills__data', {delay:400});
+sr.reveal('.skills__img',{delay:450, origin: 'bottom'})
 /*===== Scroll Portfolio =====*/
 sr.reveal('.work__img',{interval:200})
 /*===== Scroll Contact =====*/
