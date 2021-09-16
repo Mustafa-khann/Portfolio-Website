@@ -144,6 +144,7 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:auto;
     font-weight: var(--font-semi);
     font-size: 14px;
 }
@@ -159,6 +160,10 @@ img
         padding: 2rem;
         background-color: var(--second-color);
         transition: .5s;
+    }
+    nav
+    {
+        width: 100%;
     }
 
 }
@@ -699,6 +704,7 @@ img
     }
     .nav{
         height: calc(var(--header-height) + 1rem);
+        width:100%;
     }
     .nav__list
     {
