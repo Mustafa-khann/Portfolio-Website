@@ -24,6 +24,7 @@ function linkAction()
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
 /*===== Scroll reveal Animation =====*/
 const sr = ScrollReveal({
         origin: 'right',
@@ -42,8 +43,8 @@ sr.reveal('.about__img',{origin:'left'})
 sr.reveal('.about__subtitle',{delay:200})
 sr.reveal('.text',{delay:200})
 /*===== Scroll Skills =====*/
-sr.reveal('.skills__subtitle',{})
-sr.reveal('.skills__text',{delay:200})
+sr.reveal('.skills__title',{})
+sr.reveal('.skills__subtitle',{delay:200})
 sr.reveal('.professional__skills__title',{delay:200})
 sr.reveal('.professional__skills__subtitle',{delay:200})
 sr.reveal('.professional__skills',{delay:200})

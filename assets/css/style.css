@@ -60,6 +60,7 @@
 html
 {
     scroll-behavior: smooth;
+
 }
 body
 {
@@ -124,15 +125,17 @@ img
     width: calc(100% - 2rem);
     margin-right: var(--mb-2);
 }
-.l-header
+.header
 {
     width: 100%;
     position: fixed;
+    margin: 0 auto;
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
     background-color: #fff;
-    box-shadow: 0 1px 4px rgba(146,161,176,.15);
+    border-radius: 3rem;
+    box-shadow: 0 1px 4px rgba(14, 14, 14, 0.25);
 
 }
 
@@ -143,10 +146,8 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     font-weight: var(--font-semi);
     font-size: 14px;
-
 }
 @media screen and (max-width: 720px)
 {
@@ -156,10 +157,11 @@ img
         top: var(--header-height);
         right: -100%;
         width: 80%;
-        height: 100%;
+        height: 90%;
         padding: 2rem;
         background-color: var(--second-color);
         transition: .5s;
+        border-radius: 3rem 0 0 3rem;
     }
 
 }
