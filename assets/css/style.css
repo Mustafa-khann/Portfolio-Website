@@ -163,7 +163,13 @@ img
         transition: .5s;
         border-radius: 3rem 0 0 3rem;
     }
-
+}
+@media screen and (max-width: 350px)
+{
+    .header
+    {
+        width: 310px;
+    }
 }
 
 .nav__item
@@ -686,7 +692,6 @@ img
     body{
         margin: 0;
     }
-
     .section{
         padding-top: 4rem;
         padding-bottom: 3rem;
@@ -716,6 +721,7 @@ img
     }
     .nav__toggle{
         display: none;
+        color: #285AEB;
     }
     .nav__link
     {
@@ -777,7 +783,6 @@ img
         margin-left: auto;
         margin-right: auto;
     }
-
     .home__img {
         right: 10%;
         z-index: 2;
