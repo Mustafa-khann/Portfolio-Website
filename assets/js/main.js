@@ -50,7 +50,7 @@ sr.reveal('.professional__skills',{delay:200})
 sr.reveal('.skills__data', {delay:400});
 sr.reveal('.skills__img',{delay:450, origin: 'bottom'})
 /*===== Scroll Portfolio =====*/
-sr.reveal('.work__img',{interval:200})
+sr.reveal('.work__img',{interval:200, origin: 'bottom'})
 /*===== Scroll Contact =====*/
 sr.reveal('.contact__name',{delay:100})
 sr.reveal('.contact__email',{delay:200})

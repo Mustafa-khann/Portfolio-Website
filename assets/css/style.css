@@ -60,7 +60,6 @@
 html
 {
     scroll-behavior: smooth;
-
 }
 body
 {
@@ -144,9 +143,10 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:auto;
+    width: 100%;
     font-weight: var(--font-semi);
     font-size: 14px;
+
 }
 @media screen and (max-width: 720px)
 {
@@ -160,10 +160,6 @@ img
         padding: 2rem;
         background-color: var(--second-color);
         transition: .5s;
-    }
-    nav
-    {
-        width: 100%;
     }
 
 }
