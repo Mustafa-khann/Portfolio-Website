@@ -164,12 +164,6 @@ img
         border-radius: 3rem 0 0 3rem;
     }
 }
-@media screen and (max-width: 350px){
-    .header
-    {
-        width: 330px;
-    }
-}
 .nav__item
 {
     margin-bottom: var(--mb-4);
