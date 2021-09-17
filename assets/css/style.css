@@ -775,10 +775,9 @@ img
 @media screen and (min-width: 1024px) {
     .bd-grid {
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 0;
     }
     .home__img {
-        right: 10%;
         z-index: 2;
     }
 }
