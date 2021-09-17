@@ -34,14 +34,14 @@ const sr = ScrollReveal({
 
     })
 /*===== Scroll Home =====*/
-sr.reveal('.home__title',{origin: 'left'})
-sr.reveal('.button',{delay:200,origin : 'left'})
-sr.reveal('.home__img',{delay:400})
-sr.reveal('.home__social-icon',{interval: 200,origin : 'left'})
+sr.reveal('.home__title',{})
+sr.reveal('.button',{delay:200,})
+sr.reveal('.home__img',{delay:400 , origin: 'left'})
+sr.reveal('.home__social-icon',{interval: 200})
 /*===== Scroll About =====*/
-sr.reveal('.about__img',{origin:'left'})
-sr.reveal('.about__subtitle',{delay:200})
-sr.reveal('.text',{delay:200})
+sr.reveal('.about__img',{})
+sr.reveal('.about__subtitle',{delay:200, origin:'left'})
+sr.reveal('.text',{delay:200, origin: 'left'})
 /*===== Scroll Skills =====*/
 sr.reveal('.skills__title',{})
 sr.reveal('.skills__subtitle',{delay:200})
@@ -51,12 +51,12 @@ sr.reveal('.professional__skills',{delay:200})
 sr.reveal('.skills__data', {delay:400, origin: 'left'});
 sr.reveal('.skills__img',{delay:450, origin: 'top'})
 /*===== Scroll Portfolio =====*/
-sr.reveal('.work__img',{interval:200, origin: 'bottom'})
+sr.reveal('.work__img',{interval:200, origin: 'top'})
 /*===== Scroll Contact =====*/
-sr.reveal('.contact__name',{delay:100})
-sr.reveal('.contact__email',{delay:200})
-sr.reveal('.contact__subject',{delay:300})
-sr.reveal('.contact__message',{delay:400})
+sr.reveal('.contact__name',{delay:100, origin: 'left'})
+sr.reveal('.contact__email',{delay:200, origin: 'left'})
+sr.reveal('.contact__message',{delay:400, origin: 'left'})
+sr.reveal('.submit', {delay:500, origin: 'left'})
 
 /*===== Form resubmission appearance disable after every refresh of the page =====*/
 if ( window.history.replaceState ) {
