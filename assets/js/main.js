@@ -28,7 +28,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*===== Scroll reveal Animation =====*/
 const sr = ScrollReveal({
         origin: 'right',
-        distance: '80px',
+        distance: '-80px',
         duration: 2500,
         reset: true
 
