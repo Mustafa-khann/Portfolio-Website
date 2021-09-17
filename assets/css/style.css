@@ -60,7 +60,6 @@
 html
 {
     scroll-behavior: smooth;
-
 }
 body
 {
@@ -162,6 +161,10 @@ img
         background-color: var(--second-color);
         transition: .5s;
         border-radius: 3rem 0 0 3rem;
+    }
+    .footer
+    {
+        border-radius: 1rem;
     }
 }
 .nav__item
