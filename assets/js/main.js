@@ -86,12 +86,12 @@ $(document).ready(function ()
         }
         if(email.length==0)
         {
-            statusTxt.append('Kindly fill the Email field\n')
+            statusTxt.append(' Kindly fill the Email field\n')
             disabledbutton.disabled=true;
         }
         if(message.length==0)
         {
-            statusTxt.append("Kindly just don't stay silent, write to me!")
+            statusTxt.append(" just don't stay silent, write to me!")
             disabledbutton.disabled=true;
         }
     })
