@@ -465,13 +465,13 @@ img
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #c41313;
+    background-color: rgba(185, 236, 5, 0.9);
     height: .24rem;
     z-index: var(--z-back);
 }
 .java__bar:hover
 {
-    box-shadow: 0 4px 25px rgb(76, 197, 87);
+    box-shadow: 0 4px 25px rgba(185, 236, 5, 0.9);
 
 }
 .skills__bar_python
