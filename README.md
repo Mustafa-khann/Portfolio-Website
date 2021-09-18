@@ -5,7 +5,9 @@
 
 ## I'm a Student, Developer, and Nerd!!
 
+-                        | Pursuing Bachelor's Degree in CS |
 - 🌱 I’m currently learning everything 🤣
+- 🌐 Mostly Web Dev & 🔒 WebSec
 - 👯 I’m looking to collaborate with other Nerds.
 - 🥅 2021 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to Draw & Procrastinate
