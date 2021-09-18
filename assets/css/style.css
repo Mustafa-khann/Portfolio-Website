@@ -608,7 +608,7 @@ img
     row-gap: 2rem;
 }
 .work__img {
-    box-shadow: 0 4px 25px rgba(110, 195, 238, 0.55);
+    box-shadow: 0 4px 25px rgb(93, 93, 93);
     border-radius: .5rem;
     overflow: hidden;
 }
