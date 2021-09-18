@@ -354,7 +354,18 @@ img
 {
      font-size: 2rem;
     margin-right: var(--mb-2);
-    color: var(--first-color);
+}
+.skills__icon__html
+{
+    color: red;
+}
+.skills__icon__css
+{
+    color: #4070F4;
+}
+.skills__icon__js
+{
+    color: #969628;
 }
 .bx-credit-card-front
 {
