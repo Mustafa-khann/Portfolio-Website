@@ -608,7 +608,7 @@ img
     row-gap: 2rem;
 }
 .work__img {
-    box-shadow: 0 4px 25px rgb(93, 93, 93);
+    box-shadow: 0 4px 25px rgb(49, 48, 48, 2);
     border-radius: .5rem;
     overflow: hidden;
 }
@@ -618,7 +618,7 @@ img
 }
 .work__img img
 {
-    transition: 1s;
+    transition: 0.8s;
     cursor: pointer;
 }
 .work__img img:hover
