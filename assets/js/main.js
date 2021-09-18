@@ -34,10 +34,10 @@ const sr = ScrollReveal({
 
     })
 /*===== Scroll Home =====*/
-sr.reveal('.home__title',{})
-sr.reveal('.button',{delay:200,})
-sr.reveal('.home__img',{delay:400 , origin: 'left'})
-sr.reveal('.home__social-icon',{interval: 200})
+sr.reveal('.home__title',{origin: 'left'})
+sr.reveal('.button',{delay:200,origin: 'left'})
+sr.reveal('.home__img',{delay:400, origin: 'right'})
+sr.reveal('.home__social-icon',{interval: 200, origin: 'left'})
 /*===== Scroll About =====*/
 sr.reveal('.about__img',{})
 sr.reveal('.about__subtitle',{delay:200, origin:'left'})
