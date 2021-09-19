@@ -86,6 +86,7 @@
 {
     box-sizing: border-box;
 }
+
 html
 {
     scroll-behavior: smooth;
@@ -176,6 +177,10 @@ img
     align-items: center;
     font-weight: var(--font-semi);
     font-size: 14px;
+}
+.nav__logo:hover
+{
+    text-decoration: none;
 }
 @media screen and (max-width: 720px)
 {
