@@ -40,16 +40,16 @@ sr.reveal('.home__img',{delay:400, origin: 'right'})
 sr.reveal('.home__social-icon',{interval: 200, origin: 'left'})
 /*===== Scroll About =====*/
 sr.reveal('.about__img',{})
-sr.reveal('.about__subtitle',{delay:200, origin:'left'})
+sr.reveal('.about__subtitle',{delay:200})
 sr.reveal('.text',{delay:200, origin: 'left'})
 /*===== Scroll Interest =====*/
 sr.reveal('.row',{delay: 400, origin:'left'})
 /*===== Scroll Skills =====*/
-sr.reveal('.skills__title',{origin: 'left'})
-sr.reveal('.skills__subtitle',{delay:200, origin: 'left'})
-sr.reveal('.professional__skills__title',{delay:100, origin: 'left'})
-sr.reveal('.professional__skills__subtitle',{delay:200, origin: 'left'})
-sr.reveal('.professional__skills',{delay:300, origin: 'left'})
+sr.reveal('.skills__title',{})
+sr.reveal('.skills__subtitle',{delay:200})
+sr.reveal('.professional__skills__title',{delay:100})
+sr.reveal('.professional__skills__subtitle',{delay:200})
+sr.reveal('.professional__skills',{delay:300})
 sr.reveal('.skills__data', {delay:400, origin: 'left'});
 sr.reveal('.skills__img',{delay:450, origin: 'top'})
 /*===== Scroll Portfolio =====*/
