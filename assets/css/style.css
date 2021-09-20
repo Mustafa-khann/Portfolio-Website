@@ -238,7 +238,6 @@ img
     color: var(--second-color);
     font-size: 1.5rem;
     cursor: pointer;
-
 }
 /*===== Active Menu =====*/
 .active::after
@@ -338,6 +337,10 @@ img
     font-size: 28px;
     color: #1E1F21;
 }
+.about__text
+{
+    font-size: 28px;
+}
 .websecurity__text
 {
     color: var(--first-color);
@@ -371,7 +374,9 @@ img
     padding-right: 10px;
     line-height: 1;
 }
-.interests .icon-box h3 {
+.icon-box h3 {
+    display: flex;
+    flex-direction: row;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -910,7 +915,6 @@ img
     margin-bottom: var(--mb-2);
     font-size: 2.5rem;
     color: linear-gradient(45deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
-
 }
 .footer__icon
 {
