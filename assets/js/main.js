@@ -69,31 +69,27 @@ $(document).ready(function ()
 {
     $('.submit').click(function (event)
     {
+        var name = $('.contact__name').val();
+        var email = $('.contact__email').val();
+        var message = $('.contact__message').val();
+        var statusTxt =$('.sending__text');
+        statusTxt.empty();
 
+        var disabledbutton = document.querySelector(".submit")
 
-        var name = $('.contact__name').val()
-        var nametext = document.getElementById(nametext);
-        var email = $('.contact__email').val()
-        var message = $('.contact__message').val()
-        var statusTxt =$('.sending__text')
-        statusTxt.empty()
-
-        var disabledbutton = document.getElementById("submitbutton")
-
-
-        if(name.length==0 && name.includes(1,2,3,4,5,6,7,8,9,0))
+        if(name.length== 0 || name.includes(1,2,3,4,5,6,7,8,9,0))
         {
             statusTxt.append('Name is Invalid\n')
             disabledbutton.disabled=true;
         }
-        if(email.length==0)
+        else if(email.length==0 )
         {
             statusTxt.append(' Kindly fill the Email field.\n')
             disabledbutton.disabled=true;
         }
-        if(message.length==0)
+        else if(message.length==0)
         {
-            statusTxt.append(" just don't stay silent, write to me!")
+            statusTxt.append(" Just don't stay silent, write to me!")
             disabledbutton.disabled=true;
         }
     })
