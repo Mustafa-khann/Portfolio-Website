@@ -866,40 +866,7 @@ img
 .footer__title
 {
     font-size: 1.5rem;
-     background-color: var(#F6C0C0);
     margin-bottom: var(--mb-4);
-}
-.footer__social
-{
-    margin-bottom: var(--mb-3);
-}
-.twitter-icon
-{
-    width: max-content;
-    margin-bottom: var(--mb-2);
-    font-size: 2.5rem;
-    color: #65bbf6;
-}
-.twitter-icon:hover
-{
-    color: #FFFFFF;
-}
-.instagram-icon
-{
-    width: max-content;
-    margin-bottom: var(--mb-2);
-    font-size: 2.5rem;
-    color: #d56e6e;
-}
-.instagram-icon:hover
-{
-    color: #FFFFFF
-}
-.footer__icon
-{
-    font-size: 1.5rem;
-    color: #fff;
-    margin: 0 var(--mb-4);
 }
 @media screen and (min-width: 720px)
 {
