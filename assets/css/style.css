@@ -559,7 +559,7 @@ img
     margin-right: var(--mb-2);
     color: #1da467;
 }
-.python__icon, .cpp__icon, .java__icon, .arduino__icon
+.python__icon, .cpp__icon, .java__icon, .arduino__icon, .golang__icon
 {
     font-size: 2rem;
     margin-right: var(--mb-2);
@@ -654,13 +654,26 @@ img
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #4abce9;
+    background-color: #096081;
     height: .24rem;
     z-index: var(--z-back);
 }
 .arduino__bar:hover
 {
-    box-shadow: 0 4px 25px rgb(74, 188, 233);
+    box-shadow: 0 4px 25px rgb(9, 96, 129);
+}
+.skills__bar_golang
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #4abce9;
+    height: .24rem;
+    z-index: var(--z-back);
+}
+.golang__bar:hover
+{
+    box-shadow: 0 4px 25px rgb(74,188,233);
 }
 .skills__bar_frontend
 {
@@ -736,11 +749,15 @@ img
 }
 .skills__python
 {
-   width:40%;
+   width:30%;
 }
 .skills__arduino
 {
-   width:30%;
+   width:40%;
+}
+.skills__golang
+{
+    width: 30% ;
 }
 .skills__frontend
 {
