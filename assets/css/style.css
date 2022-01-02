@@ -524,15 +524,6 @@ img
      font-size: 2rem;
     margin-right: var(--mb-2);
 }
-.skills__icon__html
-{
-    color: red;
-
-}
-.skills__icon__css
-{
-    color: #4174ff;
-}
 .skills__icon__js
 {
     color: #969628;
@@ -571,32 +562,6 @@ img
 {
     display: flex;
     align-items: center;
-}
-.skills__bar_html
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: #DD4B26;
-    height: .24rem;
-    z-index: var(--z-back);
-}
-.html__bar:hover
-{
-    box-shadow: 0 4px 25px rgb(255, 0, 0);
-}
-.skills__bar_css
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: #264EDD;
-    height: .24rem;
-    z-index: var(--z-back);
-}
-.css__bar:hover
-{
-    box-shadow: 0 4px 25px rgb(63, 94, 248);
 }
 .skills__bar_js
 {
