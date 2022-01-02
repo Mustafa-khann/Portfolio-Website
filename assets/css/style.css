@@ -359,33 +359,35 @@ img
 {
     box-shadow: 0 4px 25px rgb(249, 187, 44);
 }
-.backend__interest:hover
+.ai__interest:hover
 {
     box-shadow: 0 4px 25px rgb(82, 179, 255);
 }
-.cybersecurity__interest:hover
+.mechatronics__interest:hover
 {
-    box-shadow: 0 4px 25px rgb(235, 75, 102);
+    box-shadow: 0 4px 25px #0E0E0E;
 }
-.websecurity__interest:hover
+
+.mechatronics-icon
+{
+    padding-right: 10px;
+}
+
+.esp__interest:hover
 {
     box-shadow: 0 4px 25px rgb(63, 126, 49);
 }
-.electronics__interest:hover
+.iot__interest:hover
 {
     box-shadow: 0 4px 25px rgb(85, 120, 255);
 }
-.iot__interest:hover
+.arduino__interest:hover
 {
     box-shadow: 0 4px 25px rgb(236, 68, 25);
 }
 .esp__interest:hover
 {
     box-shadow: 0 4px 25px rgb(86, 168, 68);
-}
-.arduino__interest:hover
-{
-    box-shadow: 0 4px 25px rgb(111, 248, 255);
 }
 
 /*--------------------------------------------------------------
