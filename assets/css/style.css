@@ -170,6 +170,10 @@ img
         transition: .5s;
         border-radius: 3rem 0 0 3rem;
     }
+    .home__social-icon
+    {
+        font-size: 1.5rem;
+    }
     .footer
     {
         border-radius: 1rem;
@@ -261,7 +265,7 @@ img
     margin-bottom: var(--mb-2);
     font-size: 2.5rem;
     color: var(--second-color);
-    z-index: 1;
+    z-index: 1; 
 }
 .home__social-icon:hover
 {
