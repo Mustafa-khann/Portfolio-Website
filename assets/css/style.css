@@ -296,11 +296,13 @@ img
     z-index: 1rem;
 }
 
+
 .button:hover
 {
     text-decoration: none;
     color: #FFFFFF;
     background-color:#4070F4FF ;
+    box-shadow: 0 4px 20px rgb(62, 111, 244);
 }
 /*===== About =====*/
 .about__container
