@@ -489,20 +489,22 @@ img
 }
 .skills__title
 {
+    margin-top: 2.5rem;
     margin-bottom: var(--mb-2);
 }
 .professional__skills__title
 {
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     margin-bottom: var(--mb-2);
 }
 .professional__skills__subtitle
 {
+    margin-top: 0px;
     margin-bottom: var(--mb-4);
 }
 .skills__subtitle
 {
-    margin-bottom: var(--mb-4);
+    margin-bottom: var(--mb-5);
 }
 .professional__skills__text
 {
@@ -609,32 +611,6 @@ img
 {
     box-shadow: 0 4px 25px rgba(185, 236, 5, 0.9);
 
-}
-.skills__bar_python
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: #2e548b;
-    height: .24rem;
-    z-index: var(--z-back);
-}
-.python__bar:hover
-{
-    box-shadow: 0 4px 25px rgb(46, 84, 139);
-}
-.skills__bar_arduino
-{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: #096081;
-    height: .24rem;
-    z-index: var(--z-back);
-}
-.arduino__bar:hover
-{
-    box-shadow: 0 4px 25px rgb(9, 96, 129);
 }
 
 .skills__bar_frontend
