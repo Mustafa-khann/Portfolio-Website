@@ -179,6 +179,11 @@ img
     {
         border-radius: 1rem;
     }
+    .section-title::after
+    {
+        width: 80px;
+        top: 55px;
+    }
 }
 .nav__item
 {
@@ -481,7 +486,6 @@ img
 }
 
 /*===== Skills =====*/
-
 .skills__container
 {
     row-gap: 2rem;
@@ -530,7 +534,8 @@ img
 }
 .skills__icon
 {
-     font-size: 2rem;
+    size: 1.5rem;
+    font-size: 24px;
     margin-right: var(--mb-2);
 }
 .skills__icon__js
@@ -561,9 +566,9 @@ img
     margin-right: var(--mb-2);
     color: #1da467;
 }
-.python__icon, .cpp__icon, .java__icon, .arduino__icon, .golang__icon
+.cpp__icon, .java__icon, .assembly__icon
 {
-    font-size: 2rem;
+    font-size: 24px;
     margin-right: var(--mb-2);
 }
 
@@ -609,8 +614,12 @@ img
 }
 .java__bar:hover
 {
-    box-shadow: 0 4px 25px rgba(185, 236, 5, 0.9);
+    box-shadow: 0 4px 25px rgba(37, 37, 35, 0.9);
 
+}
+.assembly__bar:hover
+{
+    box-shadow: 0 4px 25px rgb(132, 187, 59);
 }
 
 .skills__bar_frontend
