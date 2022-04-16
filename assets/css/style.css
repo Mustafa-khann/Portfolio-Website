@@ -652,50 +652,6 @@ img
 {
     box-shadow: 0 4px 25px rgb(76, 197, 87);
 }
-.skills__html
-{
-   width:70%;
-}
-.skills__css
-{
-   width:50%;
-}
-.skills__js
-{
-   width:40%;
-}
-.skills__cpp
-{
-   width:75%;
-}
-.skills__java
-{
-   width:60%;
-}
-.skills__python
-{
-   width:30%;
-}
-.skills__arduino
-{
-   width:30%;
-}
-.skills__golang
-{
-    width: 30% ;
-}
-.skills__frontend
-{
-   width:40%;
-}
-.skills__backend
-{
-   width:20%;
-}
-.skills__electronics
-{
-   width:40%;
-}
 /*===== Work =====*/
 
 .work
