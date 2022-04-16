@@ -337,6 +337,16 @@ img
     width: 200px;
     border-radius: .5rem;
 }
+#resume__button
+{
+    margin-top: var(--mb-2);
+    background-color: #047187;
+    color: #fff;
+    font-weight:  var(--font-semi);
+    font-size: 0.75rem;
+    padding: 0.50rem 2rem;
+    border-radius: 0px 40px;
+}
 /*===== Interest =====*/
 .container {
     display: flex;
