@@ -50,4 +50,14 @@ header{
     top: 2rem;
     background-color: #4070F4;
 }
-
+.button-row, button
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 17px 0px 100px;
+    color: #047187;
+    font-weight:  700;
+    font-size: 0.75rem;
+    padding: 0.50rem 2rem 0.50rem 2rem;
+    border-radius: 0px 40px;
+}
