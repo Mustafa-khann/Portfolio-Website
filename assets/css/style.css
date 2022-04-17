@@ -306,8 +306,8 @@ img
 {
     text-decoration: none;
     color: #FFFFFF;
-    background-color:#4070F4FF ;
-    box-shadow: 0 4px 20px rgb(62, 111, 244);
+    background-color:rgb(76, 120, 241) ;
+    box-shadow: 0 4px 20px rgb(80, 110, 192);
 }
 /*===== About =====*/
 .about__container
