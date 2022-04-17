@@ -340,7 +340,7 @@ img
 #resume__button
 {
     margin-top: var(--mb-2);
-    background-color: #047187;
+    background-color: var(--first-color);
     color: #fff;
     font-weight:  var(--font-semi);
     font-size: 0.75rem;
