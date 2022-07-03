@@ -347,6 +347,10 @@ img
     padding: 0.50rem 2rem;
     border-radius: 0px 40px;
 }
+#resume_button:hover
+{
+    border-radius: 50px;
+}
 /*===== Interest =====*/
 .container {
     display: flex;
