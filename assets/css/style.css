@@ -322,7 +322,8 @@ img
 }
 .about__text
 {
-    font-size: 28px;
+    font-size: 16px;
+    width: 600px;
 }
 .websecurity__text
 {
