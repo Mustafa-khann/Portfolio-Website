@@ -631,6 +631,19 @@ img
 {
     box-shadow: 0 4px 25px rgb(98, 149, 203);
 }
+.skills__bar_c
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #F9A825;
+    height: .24rem;
+    z-index: var(--z-back);
+}
+.c__bar:hover
+{
+    box-shadow: 0 4px 25px #3d6ced;
+}
 .skills__bar_java
 {
     position: absolute;
