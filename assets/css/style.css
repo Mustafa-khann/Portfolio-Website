@@ -329,6 +329,10 @@ img
 {
     background-color: #A3CFA7;
 }
+.about_text_change
+{
+    background-color: #F7DCEC;
+}
 .websecurity__text
 {
     color: var(--first-color);
