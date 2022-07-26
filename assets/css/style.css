@@ -360,8 +360,10 @@ img
 }
 #resume_button:hover
 {
-    border-radius: 40px 00px;
-    transition: .5s;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color:rgb(76, 120, 241) ;
+    box-shadow: 0 4px 20px rgb(67, 126, 160);
 }
 /*===== Interest =====*/
 .container {
