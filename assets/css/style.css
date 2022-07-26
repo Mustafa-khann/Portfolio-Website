@@ -356,7 +356,7 @@ img
     font-weight:  var(--font-semi);
     font-size: 0.75rem;
     padding: 0.50rem 2rem;
-    /* border-radius: 0px 40px; */
+    border-radius: 0px 40px;
 }
 #resume_button:hover
 {
@@ -364,7 +364,6 @@ img
     color: #FFFFFF;
     background-color:rgb(76, 120, 241) ;
     box-shadow: 0 4px 20px rgb(67, 126, 160);
-    border-radius: 0px 40px;
 }
 /*===== Interest =====*/
 .container {
