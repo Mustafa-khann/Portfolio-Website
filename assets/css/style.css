@@ -432,10 +432,6 @@ img
 {
     box-shadow: 0 4px 25px rgb(86, 168, 68);
 }
-.community__interest:hover
-{
-    box-shadow: 0 4px 25px rgb(44, 138, 238);
-}
 
 /*--------------------------------------------------------------
 # Testimonials
