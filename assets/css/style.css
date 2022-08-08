@@ -358,13 +358,6 @@ img
     padding: 0.50rem 2rem;
     border-radius: 0px 40px;
 }
-#resume_button:hover
-{
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color:rgb(76, 120, 241) ;
-    box-shadow: 0 4px 20px rgb(67, 126, 160);
-}
 #discord__button
 {
     margin-top: var(--mb-2);
