@@ -356,7 +356,7 @@ img
     font-weight:  var(--font-semi);
     font-size: 0.75rem;
     padding: 0.50rem 2rem;
-    border-radius: 0px 40px;
+    border-radius: 40px;
 }
 #discord__button
 {
@@ -366,7 +366,7 @@ img
     font-weight:  var(--font-semi);
     font-size: 0.75rem;
     padding: 0.50rem 2rem;
-    border-radius: 40px 0px;
+    border-radius: 40px;
 }
 /*===== Interest =====*/
 .container {
